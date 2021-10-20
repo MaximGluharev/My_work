@@ -99,9 +99,9 @@ if (sum1 > 1) {
 'Неверно'.*/
 
 
-if (a > 2 && a < 11 || b >= 6 && b < 14) {console.log ('Верно');
+if (a > 2 && a < 11 || b >= 6 && b < 14) {console.log ('true');
 }
-else {console.log ('Неверно');
+else {console.log ('false');
 };
 
 
