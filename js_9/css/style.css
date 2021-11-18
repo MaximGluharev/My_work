@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #9856fb;
+
+}
+
+.toDotext {
+    width: 400px;
+    height: 70px;
+    padding-left: 10px;
+    border: 4px solid #a06ee9;
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+ 
+.container .save, .clear {
+    width: 150px;
+    height: 50px;
+    background-color: #a06ee9;
+    border: none;
+    color: antiquewhite;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.container .toDotable {
+    border: 4px solid #a06ee9;
+    padding-top: 10px;
+    width: 525px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 30px 30px; 
+
+}
+
+.container .toDoList li {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 70px;
+
+}
+
+.container .toDoList li .delete {
+    margin-left: 30px;
+    font-size: 27px;
+    cursor: pointer;
+
+}
+
+.container .clear {
+    width: 200px;
+
+}
+
+
+
