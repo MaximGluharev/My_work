@@ -302,7 +302,7 @@ class ContactsApp extends Contacts{
        if (this.remove(id)) this.update();
        console.log(localStorage);
        
-    }
+    }d
     
 
     init() {
